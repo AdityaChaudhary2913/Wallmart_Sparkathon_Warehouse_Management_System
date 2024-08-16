@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended:  false }));
 app.use(bodyParser.json());
 app.use(
     cors({
-      origin: ["http://localhost:3000", "https://pinvent-app.vercel.app","http://localhost:3001"],
+      origin: ["http://localhost:3000", "https://walmart-warehouse-management-system.vercel.app","http://localhost:3001"],
       credentials: true,
     })
   );
